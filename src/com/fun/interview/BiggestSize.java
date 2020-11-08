@@ -2,10 +2,11 @@ package com.fun.interview;
 
 /*
 Find the biggest size of sub array which is continuity and sum this sub array is equal 0
-For example, array = [4, 5, 0, 6, -6 ,1, -7, 3, 4, 1]
+For example, array = [4, 5, 0, 6, -6 , -7, 3, 4, 1]
 sub array 1 = [0] size = 1
 sub array 2 = [6, -6] size = 2
 sub array 3 = [-7, 3, 4] size = 3
+sub array 4 = [6, -6 , -7, 3, 4] = 5
 then need to return 3
  */
 public class BiggestSize {
